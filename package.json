@@ -1,0 +1,16 @@
+{
+  "name": "learning-day-next-js-basics",
+  "description": "Codebase for Learning Day in Next.JS Basics topic",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^8.0.3",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  },
+  "license": "ISC"
+}
