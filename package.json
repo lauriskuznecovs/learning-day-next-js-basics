@@ -2,15 +2,21 @@
   "name": "learning-day-next-js-basics",
   "description": "Codebase for Learning Day in Next.JS Basics topic",
   "version": "1.0.0",
+  "main": "server.js",
   "scripts": {
-    "dev": "next",
+    "dev": "nodemon --watch server.js",
     "build": "next build",
-    "start": "next start"
+    "start": "NODE_ENV=production node server.js"
   },
   "dependencies": {
+    "express": "^4.16.4",
     "next": "^8.0.3",
+    "next-routes": "^1.4.2",
     "react": "^16.8.4",
     "react-dom": "^16.8.4"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
 }
